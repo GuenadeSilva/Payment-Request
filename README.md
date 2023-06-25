@@ -1,11 +1,11 @@
-This Project is part of a Take Home Challenge for Deel
+This Project is a payment request data set
 
 ### Using the starter project
 
-For the first part of the challenge, please ingest and model the source data — try following the dbt modeling standards.
+For the first part of the challenge,is to ingest and model the source data 
 
 #### 
-    Please include a document with information around:
+    Include document with information around:
     1. Preliminary data exploration
     2. Summary of your model architecture
     3. Lineage graphs
@@ -14,7 +14,7 @@ For the first part of the challenge, please ingest and model the source data —
 
 #### Objective:
 
-For the second part of the challenge, please develop a production version of the model for the Data Analyst to utilize. This model should be able to answer these three questions at a minimum:
+For the second part of the challenge, develop a production version of the model for the Data Analyst to utilize. This model should be able to answer these three questions at a minimum:
 
 #### 
     1. What is the acceptance rate over time?
