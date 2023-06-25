@@ -1,15 +1,25 @@
-Welcome to your new dbt project!
+This Project is part of a Take Home Challenge for Deel
 
 ### Using the starter project
 
-Try running the following commands:
-- dbt run
-- dbt test
+For the first part of the challenge, please ingest and model the source data — try following the dbt modeling standards.
+
+#### 
+    Please include a document with information around:
+    1. Preliminary data exploration
+    2. Summary of your model architecture
+    3. Lineage graphs
+    4. Tips around macros, data validation, and documentation
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+#### Objective:
+
+For the second part of the challenge, please develop a production version of the model for the Data Analyst to utilize. This model should be able to answer these three questions at a minimum:
+
+#### 
+    1. What is the acceptance rate over time?
+    2. List the countries where the amount of declined transactions went over $25M
+    3. Which transactions are missing chargeback data?
+
+In addition to presenting the model, please provide the code (pseudo-code also suffices) for answering these questions. 
+Feel free to provide the code, the actual answers, a brief description for the analyst, and any charts or images to help with the explanation.
