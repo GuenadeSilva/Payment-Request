@@ -23,3 +23,8 @@ For the second part of the challenge, please develop a production version of the
 
 In addition to presenting the model, please provide the code (pseudo-code also suffices) for answering these questions. 
 Feel free to provide the code, the actual answers, a brief description for the analyst, and any charts or images to help with the explanation.
+
+
+#### Visualizations
+
+The Visualizations can be Found here https://lookerstudio.google.com/reporting/f3753918-db28-4f98-aeca-717be28ecbd5/page/a7GVD
