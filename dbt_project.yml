@@ -1,8 +1,6 @@
 
-# Name your project! Project names should contain only lowercase characters
-# and underscores. A good package name should reflect your organization's
-# name or the intended use of these models
-name: 'my_new_project'
+# Name of the project
+name: 'deel'
 version: '1.0.0'
 config-version: 2
 
@@ -26,13 +24,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 
 # Configuring models
-# Full documentation: https://docs.getdbt.com/docs/configuring-models
 
-# In this example config, we tell dbt to build all models in the example/ directory
-# as tables. These settings can be overridden in the individual model files
-# using the `{{ config(...) }}` macro.
 models:
-  my_new_project:
-    # Applies to all files under models/example/
-    example:
+  deel:
+    # Applies to all files under models/deel
+    materialized: table
+    # Applies to all files under models/deel/staging
+    staging:
       materialized: view
